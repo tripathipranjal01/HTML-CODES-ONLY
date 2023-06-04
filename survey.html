@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title> Survey Form </title>
+    <style type="text/css">
+        body{
+            background-color: lightgreen ;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .form-control{
+            text-align:left;
+            margin-bottom: 10px;
+            
+            
+        }
+        form{
+            margin:50px auto;
+            padding:30px 30px;
+            max-width: 400px;
+            background-color: white;
+        }
+
+        .form-control input,
+        .form-control select,
+        .form-control text area{
+            display:block;
+            padding:10px;
+            width: 90%;
+
+        }
+
+        .form-control input[type="radio"]{
+            display:inline-block;
+            width: auto ;
+
+        }
+
+        button{
+            display: block;
+            width: 100%;
+            padding:10px 10px ;
+            background-color: lightgreen;
+
+        }
+
+
+    </style>
+</head>
+<body>
+<h1 style="text-align: center;">UPES Survey Form</h1>  
+
+<form style="text-align: center;">
+    <fieldset> 
+    <div class="form-control"> 
+    <label style="display:  block; margin-bottom:10px">Name</label>
+    <input type="text" name="Name" placeholder="Enter Your Name">
+    </div>
+
+    <div class="form-control"> 
+    <label style="display:  block; margin-bottom:10px">Email</label>
+    <input type="text" name="Name" placeholder="Enter Your Email">
+    </div>
+
+    <div class="form-control"> 
+    <label style="display:  block; margin-bottom:10px">Age</label>
+    <input type="text" name="Name" placeholder="Enter Your Age">
+    </div>
+
+    <div class="form-control"> 
+    <label style="display:  block; margin-bottom:10px">Which option best descrives you?</label>
+    <select>
+        <option>Student</option>
+        <option>Faculty</option>
+        <option>Worker</option>
+        <option>Management Team</option>
+        <option>Other</option>
+    </select>
+    </div>
+     
+    <div class="form-control"> 
+     <label style="display:  block; margin-bottom:10px">What do you rate to UPES?</label>
+     <input type="radio" name="choice">1
+     <input type="radio" name="choice">2
+     <input type="radio" name="choice">3
+     <input type="radio" name="choice">4
+     <input type="radio" name="choice">5
+     </div>
+
+     <div class="form-control"> 
+    <label style="display:  block; margin-bottom:10px">Any Comments or suggestions?</label>
+    <textarea placeholder="Enter your Comments here"></textarea>
+    </div>
+
+    <button type ="Submit">Submit</button>
+    </fieldset>
+
+</form>
+</body>
+</html> 
